@@ -15,6 +15,11 @@ body {
 
 img{
     max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container {
+    display: flex;
 }
 
 .main-card {
@@ -23,13 +28,22 @@ img{
     margin: 0 auto;
 }
 
+.img-ds {
+    display: block;
+}
+
 .card-body {
     background-color: #fff;
     padding: 1.5em;
+    border-radius: 0 0 10px 10px;
 }
 
 .mrg-tb {
     margin: 1em 0;
+}
+
+.ff-fraunce {
+    font-family: 'Fraunces', serif;
 }
 
 .perfume {
@@ -39,8 +53,38 @@ img{
     font-size: .75rem;
 }
 
-.perfume-name {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
+.text {
+    color:  hsl(228, 12%, 48%);
+    line-height: 1.5;
+    font-size: .9rem;
 }
 
+.new-price {
+    color: hsl(158, 36%, 37%);
+    margin-right: .5em;
+}
+
+.original-price {
+    color:  hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    position: relative;
+    bottom: 6px;
+}
+
+.display-hd {
+    display: inline-block;
+    padding-top: .5em;
+}
+
+.btn {
+    display: block;
+    background-color: hsl(158, 36%, 37%);
+    padding: 1em 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #eee;
+}
