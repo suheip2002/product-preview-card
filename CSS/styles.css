@@ -10,16 +10,11 @@
 body {
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
 }
 
 img{
     max-width: 100%;
     border-radius: 10px 10px 0 0;
-}
-
-.container {
-    display: flex;
 }
 
 .main-card {
@@ -87,4 +82,21 @@ img{
 .btn-link {
     text-decoration: none;
     color: #eee;
+}
+
+@media (min-width: 700px) {
+
+    img {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .main-card {
+        display: flex;
+        max-width: 700px;
+        justify-content: center;
+    }
+
+    .card-body {
+        border-radius: 0 10px 10px 0;
+    }
 }
