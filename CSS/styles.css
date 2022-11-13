@@ -9,7 +9,10 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 img{
@@ -96,7 +99,17 @@ img{
         justify-content: center;
     }
 
+    .content {
+        width: 88%;
+        margin: 0 auto;
+    }
+
     .card-body {
         border-radius: 0 10px 10px 0;
+        max-width: 50%;
+    }
+
+    .perfume-name {
+        width: 90%;
     }
 }
