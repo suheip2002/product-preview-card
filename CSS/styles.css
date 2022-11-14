@@ -86,6 +86,12 @@ img{
     color: #eee;
 }
 
+.btn:hover {
+    background-color: rgb(42, 70, 42);
+    cursor: pointer;
+}
+
+/* media query for larger screen size*/
 @media (min-width: 700px) {
 
     img {
@@ -104,13 +110,12 @@ img{
 
     .content {
         width: 80%;
-        margin: 0 auto;
     }
 
     .card-body {
         border-radius: 0 10px 10px 0;
         max-width: 50%;
-        padding: 2.5em 1em 0;
+        padding: 2.5em 0 0 2em;
     }
 
     .perfume-name {
