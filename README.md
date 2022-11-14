@@ -18,8 +18,8 @@ This is a solution to the [Product preview card challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/mobile-first-approach-nBNxUPM8E0)
-- Live Site URL:(https://suheip2002.github.io/Order-summary-component/)
+- Solution URL: (https://www.frontendmentor.io/solutions/stack-over-flow-css-mdn-and-blackbox-extension-z-xUps8eio)
+- Live Site URL:(https://suheip2002.github.io/product-preview-card/)
 
 ## My process
 

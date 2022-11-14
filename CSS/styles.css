@@ -17,9 +17,16 @@ img{
     border-radius: 10px 10px 0 0;
 }
 
-.container {
+.img-ds {
+    display: block;
+}
+
+.main-container {
     display: flex;
-    align-items: center;    
+    align-items: center;  
+    justify-content: center;  
+    flex-direction: column;
+    gap: 1em;
     min-height: 100vh;
 }
 
@@ -27,10 +34,6 @@ img{
     width: 90%;
     max-width: 375px;
     margin: 0 auto;
-}
-
-.img-ds {
-    display: block;
 }
 
 .card-body {
@@ -58,6 +61,7 @@ img{
     color:  hsl(228, 12%, 48%);
     line-height: 1.5;
     font-size: .9rem;
+    width: 90%;
 }
 
 .new-price {
@@ -72,7 +76,7 @@ img{
     bottom: 6px;
 }
 
-.display-hd {
+.display-headings {
     display: inline-block;
 }
 
@@ -95,39 +99,52 @@ img{
 }
 
 .attribution {
-    text-align: center;
     font-size: .75rem;
 }
 
 /* media query for larger screen size*/
 @media (min-width: 700px) {
 
-    img {
-        border-radius: 10px 0 0 10px;
+    .main-card {
+        display: flex;
+        max-width: 700px;   
     }
 
     .mrg-tb {
         margin: 1.5em 0;
     }
 
-    .main-card {
-        display: flex;
-        max-width: 700px;
-        justify-content: center;
+    .product-img {
+        width: 50%;
+        background-image: url(../images/image-product-desktop.jpg);
+        background-size: cover;
+        border-radius: 0.7rem 0 0 0.7rem;
+        background-repeat: no-repeat;
     }
 
-    .content {
-        width: 80%;
+    .product-img img {
+        display: none;
     }
 
-    .card-body {
-        border-radius: 0 10px 10px 0;
-        max-width: 50%;
-        padding: 2.5em 0 0 2em;
+    img {
+        border-radius: 10px 0 0 10px;
     }
 
     .perfume-name {
         width: 90%;
     }
 
+    .card-body {
+        border-radius: 0 10px 10px 0;
+        max-width: 45%;
+        padding: 1.5em 0 0 2em;
+    }
+
+    .content {
+        width: 85%;
+    }
+
+    .text {
+        width: 95%;
+    }
 }
